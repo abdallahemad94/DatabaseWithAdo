@@ -1,1 +1,1 @@
-C#, Ado.net, and SQL Server knowledge check
+Windows form for the application
