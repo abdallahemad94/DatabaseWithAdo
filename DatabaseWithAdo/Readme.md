@@ -1,0 +1,1 @@
+C#, Ado.net, and SQL Server knowledge check
