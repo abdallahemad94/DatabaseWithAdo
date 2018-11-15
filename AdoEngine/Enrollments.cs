@@ -48,7 +48,7 @@ namespace AdoEngine
         public override void AddItem(int CourseID, int stdID)
         {
             SqlCommand Command = GetCommand("Enrollments_addEnrollment");
-            string[] ParamsName = { "@stdID", "@stdName" };
+            string[] ParamsName = { "@CourseID", "@stdID" };
             ArrayList ParamsValue = new ArrayList() { CourseID, stdID };
 
             Command = AddParameters(Command, 2, ParamsName, ParamsValue);

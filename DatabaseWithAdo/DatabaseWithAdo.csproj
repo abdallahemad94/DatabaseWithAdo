@@ -82,7 +82,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Engine\AdoEngine.csproj">
+    <ProjectReference Include="..\AdoEngine\AdoEngine.csproj">
       <Project>{fd3d1177-3df5-4c03-9544-6e521e5830fd}</Project>
       <Name>AdoEngine</Name>
     </ProjectReference>
